@@ -1,6 +1,0 @@
-// data type:
-DATE, a date d where 1000-01-01 ≤ d ≤ 9999-12-31    (same format as our cell id )
-DATETIME, a date with time d where 1000-01-01 00:00:00 ≤ d ≤ 9999-12-31 23:59:59
-// the tag field is for the creative portion
-
-create table events( eventid mediumint unsigned not null auto_increment, username varchar(15) not null, dateofevent DATE not null, datetimeofevent DATETIME not null, title text not null, tag text, primary key(eventid), foreign key (username) references user(username) on delete cascade);

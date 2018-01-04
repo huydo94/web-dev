@@ -1,1 +1,0 @@
-When loading phpinfo.php, the browser shows a dialog asking to save phpinfo.php to the local computer. This is because the browser is unable to open/show the php file by itself, so it just asks the user to download it. 
