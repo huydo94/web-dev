@@ -1,0 +1,14 @@
+
+p.message{
+	color: white;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+body{
+	background-color: pink;
+}
+img {
+	display: block;
+	margin: auto;
+	width: 40%;
+}

@@ -1,0 +1,26 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <p> <b> Login Here: </b> </p>
+  <form name="Login" action="login.php" method="post">
+    Username: <input type="text" name="username">
+    <input type="submit" value="Sign In">
+  </form>
+
+<p><b>Not Registered?</b> <br>Create or Delete User here:</p>
+<form name="CreateUser" action="createuser.php" method="post">
+    Username: <input type="text" name="newUser">
+    <input type="submit" name="action" value="Create User">
+    <input type="submit" name="action" value="Delete User">
+</form>
+</body>
+
+</html>
